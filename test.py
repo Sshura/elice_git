@@ -13,17 +13,10 @@ from flask import Flask, request, make_response, render_template
 app = Flask(__name__)
 
 # s_bot
-# slack_token = "xoxb-508464543335-507908961873-67eU39lFVIosFLo24PTswKUG"
-# slack_client_id = "508464543335.508405959987"
-# slack_client_secret = "ca12e381b910b9d07d311173350c4153"
-# slack_verification = "RgZaLQysOr2TB4i6TEg9sGW7"
-# sc = SlackClient(slack_token)
-
-# 1_bot
-slack_token = "xoxb-501387243681-508898407686-E0QRDsCcpYGK9Nsc2dcw833k"
-slack_client_id = "501387243681.508548422871"
-slack_client_secret = "c5a074bfa4fd4ab9495568578c249372"
-slack_verification = "WQUTCWXEaCGYkdwPeo1iHzBN"
+slack_token = ""
+slack_client_id = ""
+slack_client_secret = ""
+slack_verification = ""
 sc = SlackClient(slack_token)
 
 # 크롤링 함수 구현하기
